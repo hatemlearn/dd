@@ -1,0 +1,31 @@
+{
+  "name": "inspireui",
+  "version": "1.0.0",
+  "summary": "Common useful and Widget Use For FluxStore Products (Flutter E-Commerce App)",
+  "description": "A new Flutter plugin project.",
+  "homepage": "https://inspireui.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "InspireUI": "hi@inspireui.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
