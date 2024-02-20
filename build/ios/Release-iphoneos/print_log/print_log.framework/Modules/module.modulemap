@@ -1,0 +1,11 @@
+framework module print_log {
+  umbrella header "print_log-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module print_log.Swift {
+  header "print_log-Swift.h"
+  requires objc
+}
